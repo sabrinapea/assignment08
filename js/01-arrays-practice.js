@@ -39,22 +39,39 @@
 // console.log(i);
 // }
 
-//STEP 8
-let movies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
-console.log(`My favorite movies are: \n ${movies}`);
-// for (let movie of movies) {
-    leastFavMovies = movies.splice(3, 7);
-    // let disLikes = leastFavMovies.join('<br\>');
-    console.log(`Movies I like: \n ${leastFavMovies}`);
-    
-    console.log(`Movies I regret watching: \n ${movies}`);
+//STEP 8 - needs line breaks after elements in array
+// Array.prototype.myname = () => {};
+// let movies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
+
+// console.log(`My favorite movies are: \n ${movies}`);
+
+// let leastFavMovies = movies.splice(3, 7);
+
+// console.log("Movies I like:\n");
+// for (let i of movies) console.log(`   ${i}`);
+
+// console.log("Movies I regret watching:\n");
+// for (let i of leastFavMovies) console.log(`   ${i}`);
 
 
 //STEP 9
+// let favMovies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
+// leastFavMovies = favMovies.splice(3, 7);
+// movies = leastFavMovies.concat(favMovies);
+// console.log(movies);
+// console.log(`my movies: ${movies.sort().reverse()}`);
 
-//STEP 10
+//STEP 10 - array
+// let favMovies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
+// lastMovie = favMovies.pop();
+// console.log(lastMovie);
 
 //STEP 11
+let favMovies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
+// lastMovie = favMovies.reverse().pop();
+// console.log(lastMovie);
+firstMovie = favMovies.shift();
+console.log(firstMovie);
 
 //STEP 12
 
