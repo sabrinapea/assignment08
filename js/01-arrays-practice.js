@@ -67,13 +67,18 @@
 // console.log(lastMovie);
 
 //STEP 11
-let favMovies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
-// lastMovie = favMovies.reverse().pop();
-// console.log(lastMovie);
-firstMovie = favMovies.shift();
-console.log(firstMovie);
+// let favMovies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
+// // lastMovie = favMovies.reverse().pop();
+// // console.log(lastMovie);
+// firstMovie = favMovies.shift();
+// console.log(firstMovie);
 
 //STEP 12
+let favMovies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
+favMovies.splice(2, 3, 'Gone with the Wind', 'Lawrence of Arabia');
+// favMovies.indexOf(aveMovies);
+console.log(favMovies);
+
 
 //STEP 13
 
