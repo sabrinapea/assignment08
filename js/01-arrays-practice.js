@@ -22,10 +22,10 @@
 // console.log(movies);
 
 //STEP 5
-let movies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
-for (let moviesNames in movies) {
-    console.log(movies);
-}
+// let movies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
+// for (let movie in movies) {
+//     console.log(movies[movie]);
+// }
 
 //STEP 6
 // let movies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
@@ -34,8 +34,21 @@ for (let moviesNames in movies) {
 // }
 
 //STEP 7
+// let movies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
+// for (let i of movies.sort()) {  
+// console.log(i);
+// }
 
 //STEP 8
+let movies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
+console.log(`My favorite movies are: \n ${movies}`);
+// for (let movie of movies) {
+    leastFavMovies = movies.splice(3, 7);
+    // let disLikes = leastFavMovies.join('<br\>');
+    console.log(`Movies I like: \n ${leastFavMovies}`);
+    
+    console.log(`Movies I regret watching: \n ${movies}`);
+
 
 //STEP 9
 
