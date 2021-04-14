@@ -39,7 +39,7 @@
 // console.log(i);
 // }
 
-//STEP 8 - needs line breaks after elements in array
+//STEP 8 - line breaks after elements in array
 // let movies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
 // console.log(`My favorite movies are: \n ${movies}`);
 // let leastFavMovies = movies.splice(0, 3);
@@ -60,10 +60,10 @@
 // lastMovie = favMovies.pop();
 // console.log(lastMovie);
 
-//STEP 11
+//STEP 11 - 2 methods displayed for this step!!
 // let favMovies = ['Inception', 'Life of Walter Mitty', 'Lord of the Rings', 'GOT', 'Forest Gump', 'Harry Potter', 'LaLa Land'];
 // // lastMovie = favMovies.reverse().pop();
-// // console.log(lastMovie);
+// // console.log(lastMovie); // OR
 // firstMovie = favMovies.shift();
 // console.log(firstMovie);
 
@@ -89,18 +89,29 @@
 // }
 
 //STEP 14
-let employees = ['Jane Shoup','Joe Pico', 'Sueky Su', 'Peter Snowkowski', 'Nidhi Paneer'];
-function showEmployee() {
-    console.log('Employees:\n \n');
-    employees.forEach(element => {
-        console.log(`${element}`);
-    });
-}
-showEmployee(employees);
-
+// let employees = ['Jane Shoup','Joe Pico', 'Sueky Su', 'Peter Snowkowski', 'Nidhi Paneer'];
+// function showEmployee() {
+//     console.log('Employees:\n \n');
+//     employees.forEach(element => {
+//         console.log(`${element}`);
+//     });
+// }
+// showEmployee(employees);
 
 //STEP 15
+// let listValues = [58, '', 'abcd', true, null, false, 0];
+// let newList = listValues.filter(Boolean);
+// console.log(newList);
 
 //STEP 16
+let listNum = [360, 2, 56, 19, 0, 69];
+function randomItem(listNum) {
+    return listNum[Math.floor(Math.random()*listNum.length)];
+}
+console.log(randomItem(listNum));
+
 
 //STEP 17
+// let list = [2, 56, 19, 365, 0];
+// let max = Math.max(...list);
+// console.log(max);
