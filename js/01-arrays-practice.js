@@ -111,7 +111,7 @@
 // console.log(randomItem(list));
 
 
-//STEP 17
+//STEP 17 -
 // let list = [2, 56, 19, 365, 0];
 // let max = Math.max(...list);
 // console.log(max);
