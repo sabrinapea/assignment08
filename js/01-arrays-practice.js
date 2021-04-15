@@ -104,11 +104,11 @@
 // console.log(newList);
 
 //STEP 16
-let listNum = [360, 2, 56, 19, 0, 69];
-function randomItem(listNum) {
-    return listNum[Math.floor(Math.random()*listNum.length)];
-}
-console.log(randomItem(listNum));
+// let list = [360, 2, 56, 19, 0, 69];
+// function randomItem(list) {
+//     return list[Math.floor(Math.random()*list.length)];
+// }
+// console.log(randomItem(list));
 
 
 //STEP 17
